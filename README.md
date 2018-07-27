@@ -25,6 +25,8 @@ Winners will be judged based on the following criteria:
 
 #### Getting started
 After completing the initial team/participant registration with the organizers, each team lead (or individual) should proceed with the following setup steps:
+1. Join the Slack group created for the purpose of this hackathon https://join.slack.com/t/korahackathon/shared_invite/enQtNDA1MzU2NzIwNzM2LWMyZWFiZTc1MWQxYmY1MGI1ZWQ1ZmFiMTg1YWE2MmQ2OTk3NWNhODcyMGUyNTA3NGUyNmIxYWYzNWY0OWM3NDQ
+
 1. Create your own `Fork` of the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) to your team lead's github account. To do this, the team lead should simply click the 'fork' button in the top right (On the Submission Repo).
 1. You should update the `team_info.md` file on your own fork repo with information of you team and the solution you are building as outlined for you there.
 1. On your own fork, create a team branch in the format `team_<your team name>` (note it is underscore-seprated). For example, if you name your team "Bad Like That", then the team branch you will create would be `team_bad_like_that`.
@@ -42,7 +44,7 @@ To submit your solution for review:
   -  `head fork:` is set to your team's forked repo where you build your solution.
   -  `compare:` is set to you team branch on your forked repo.
 For example, if your team is "Team Elvis" and your team branch is named `team_elvis` then it would be something like:
-(Add link here)
+(See link here)
 1. Click on the `Create pull request` button to submit it. The judges will take up review from there.
 
 Still not sure how to do this? Please reach out to any of the organizers on the Slack channel or follow the Github guide https://help.github.com/articles/creating-a-pull-request-from-a-fork/
