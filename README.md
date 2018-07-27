@@ -9,33 +9,6 @@ The Kora Hackathon is an initiative organized by Kora Network in partnership wit
 * Attendees will about 36 hours coding, validating their ideas, networking and then demoing their hacks to a panel of judges. See the timetable schedule below for details.
 * All 'developer code' submitted as part of the teams' entry must be written/implemented on-site at the event, over the course of the hackathon and will be further reviewed to judge the winner.
 
-#### Getting started
-After completing the initial team/participant registration with the organizers, each team lead (or individual) should proceed with the following setup steps:
-1. Create your own `Fork` of the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) to your team lead's github account. To do this, the team lead should simply click the 'fork' button in the top right (On the Submission Repo).
-1. You should update the `team_info.md` file on your own fork repo with information of you team and the solution you are building as outlined for you there.
-1. On your own fork, create a team branch in the format `team_<your team name>` (note it is underscore-seprated). For example, if you name your team "Bad Like That", then the team branch you will create would be `team_bad_like_that`.
-1. Add your team members to your forked repo and proceed to build your solution by on that your fork. Note that eventually, all code should be merged back into team branch you created as that's the only branch that will be submitted and reviewed.
-1. Note that during the course of the hackathon, the judges might be checking in your repos and also on-site to get friendly feelers about what your doing and how it's going. It's no biggie, we just wanna say hi ;)
-
-Still not sure how to do this? Please reach out to any of the organizers on the Slack channel.
-
-
-#### Submission
-To submit your solution for review:
-1. Go to the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) and confirm that a branch named exactly as the team branch your created on your own fork exists there (It should have been created automatically for you by the judges). If it hasn't, send a message on the Slack channel to them and it will be done for you.
-2. On your own team's forked repo, click on the `New Pull Request` button. On the *Comparing changes* page that shows after, confirm that:
-  -  `base fork:` is set to `korahackathon/kora_oau_2018`.
-  -  `base:` branch is set to your team branch on the submission repo.
-  -  `head fork:` is set to your team's forked repo where you build your solution.
-  -  `compare:` is set to you team branch on your forked repo.
-For example, if your team is "Team Elvis" and your team branch is named `team_elvis` then it would be something like:
-
-
-Still not sure how to do this? Please reach out to any of the organizers on the Slack channel or follow the Github guide https://help.github.com/articles/creating-a-pull-request-from-a-fork/
-
- 
-
-
 #### Winner Selection and Judging Criteria
 The winners of the contest will be selected by a panel of judges ("Judges") assembeled by the hackathon organizers.
 
@@ -50,6 +23,31 @@ Winners will be judged based on the following criteria:
 
 *Note: By submitting any Kora Hackathon Entry, entrants release FinTech Hackathon, Sponsors, their respective subsidiaries, affiliates, directors, officers, employees, representatives, agents, and advisors from any and all liability for any claims, costs, injuries, losses, or damages of any kind arising out of or in connection with the decisions of the Judges.*
 
+#### Getting started
+After completing the initial team/participant registration with the organizers, each team lead (or individual) should proceed with the following setup steps:
+1. Create your own `Fork` of the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) to your team lead's github account. To do this, the team lead should simply click the 'fork' button in the top right (On the Submission Repo).
+1. You should update the `team_info.md` file on your own fork repo with information of you team and the solution you are building as outlined for you there.
+1. On your own fork, create a team branch in the format `team_<your team name>` (note it is underscore-seprated). For example, if you name your team "Bad Like That", then the team branch you will create would be `team_bad_like_that`.
+1. Add your team members to your forked repo and proceed to build your solution by on that your fork. Note that eventually, all code should be merged back into team branch you created as that's the only branch that will be submitted and reviewed.
+1. Note that during the course of the hackathon, the judges might be checking in your repos and also on-site to get friendly feelers about what your doing and how it's going. It's no biggie, we just wanna say hi ;)
+
+Still not sure how to do this? Please reach out to any of the organizers on the Slack channel.
+
+#### Submission
+To submit your solution for review:
+1. Go to the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) and confirm that a branch named exactly as the team branch your created on your own fork exists there (It should have been created automatically for you by the judges). If it hasn't, send a message on the Slack channel to them and it will be done for you.
+2. On your own team's forked repo, click on the `New Pull Request` button. On the *Comparing changes* page that shows after, confirm that:
+  -  `base fork:` is set to `korahackathon/kora_oau_2018`.
+  -  `base:` branch is set to your team branch on the submission repo.
+  -  `head fork:` is set to your team's forked repo where you build your solution.
+  -  `compare:` is set to you team branch on your forked repo.
+For example, if your team is "Team Elvis" and your team branch is named `team_elvis` then it would be something like:
+(Add link here)
+
+
+Still not sure how to do this? Please reach out to any of the organizers on the Slack channel or follow the Github guide https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+
+ 
 #### Intellectual Property Rights
 All submissions to the Kora Hackathon remain the intellectual property of the individuals or organizations that developed them. However, by registering, consenting to the terms of the Hackathon, and entering a Submission, the Participant agrees that the organizers and technology partners reserve an irrevocable, nonexlusive, royalty-free license to use, distribute to the public, and publicly display and perform a Submission for a period of one year starting on the date of the announcement of contest winners (July 28, 2018) as an example of work. Participants are always encouraged to open source their projects to both share their hacks with the greater community and promote innovation in this space.
 
