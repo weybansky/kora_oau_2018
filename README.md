@@ -10,6 +10,17 @@ The Kora Hackathon is an initiative organized by Kora Network in partnership wit
 * All 'developer code' submitted as part of the teams' entry must be written/implemented on-site at the event, over the course of the hackathon and will be further reviewed to judge the winner.
 
 #### Getting started
+After completing the initial team/participant registration with the organizers, each team lead (or individual) should proceed with the following setup steps:
+1. Create your own *fork* of this repo (click the 'fork' button in the top right) to your team lead's github account.
+1. On your own fork, create a team branch in the format `team_<your team name>` (note it is underscore-seprated). For example, if you name your team "Bad Like That", then the team branch you will create would be `team_bad_like_that`.
+1. You should update the `team_info.md` file on your own fork repo with information of you team and the solution you are building as outlined for you there.
+1. Add your team members to your fork repo and proceed to build your solution by on it. Note that eventually, all code should be merged back into te team branch as that's the only branch that will be submitted and reviewed.
+1. During the course of the hackathon, the judges will be checking in your repos and also on-site to get friendly feelers about what your doing ;)
+
+#### Submission
+When 
+ 
+
 
 #### Winner Selection and Judging Criteria
 The winners of the contest will be selected by a panel of judges ("Judges") assembeled by the hackathon organizers.
@@ -19,8 +30,8 @@ Winners will be judged based on the following criteria:
   1. Utility of the product.
   1. Technical and design quality of the implementation/approach applied. 
   1. Special consideration will be given to entries based on the following criteria:
-    - Level of technical skill and acumen displayed by the participant. We are on the lookout ;)
-    - Degree to which the process of development was collaborative (i.e. did you work with other contestants or team members    to improve your submission?)
+    - Level of technical skill and acumen displayed by the participants. We are on the lookout ;)
+    - Degree to which the process of development was collaborative (i.e. did you work with other contestants or team members    to improve your submission? Any technical tools and workflows you apply to improve your collaborative process?)
     - Besides the winning price, opportunity for recruitment also exists for the participants, based on the level of the technical talent displayed.
 
 *Note: By submitting any Kora Hackathon Entry, entrants release FinTech Hackathon, Sponsors, their respective subsidiaries, affiliates, directors, officers, employees, representatives, agents, and advisors from any and all liability for any claims, costs, injuries, losses, or damages of any kind arising out of or in connection with the decisions of the Judges.*
