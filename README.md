@@ -36,14 +36,14 @@ Still not sure how to do this? Please reach out to any of the organizers on the 
 #### Submission
 To submit your solution for review:
 1. Go to the Submission Repo (https://github.com/korahackathon/kora_oau_2018/) and confirm that a branch named exactly as the team branch your created on your own fork exists there (It should have been created automatically for you by the judges). If it hasn't, send a message on the Slack channel to them and it will be done for you.
-2. On your own team's forked repo, click on the `New Pull Request` button. On the *Comparing changes* page that shows after, confirm that:
+1. On your own team's forked repo, click on the `New Pull Request` button. On the *Comparing changes* page that shows after, confirm that:
   -  `base fork:` is set to `korahackathon/kora_oau_2018`.
   -  `base:` branch is set to your team branch on the submission repo.
   -  `head fork:` is set to your team's forked repo where you build your solution.
   -  `compare:` is set to you team branch on your forked repo.
 For example, if your team is "Team Elvis" and your team branch is named `team_elvis` then it would be something like:
 (Add link here)
-
+1. Click on the `Create pull request` button to submit it. The judges will take up review from there.
 
 Still not sure how to do this? Please reach out to any of the organizers on the Slack channel or follow the Github guide https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
