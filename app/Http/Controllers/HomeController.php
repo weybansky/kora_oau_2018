@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        $categories = Category::select()->orderBy('name')->get();
+        $categories = Category::select()->orderBy('name')->has('posts')->get();
 
         $posts = Post::latest()->paginate(12);
 
