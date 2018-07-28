@@ -17,7 +17,7 @@ class CreateDonationsTable extends Migration
             $table->increments('id');
             $table->integer('post_id'); // post that the donation was made
             $table->integer('user_id'); // User that made the donation
-            $table->string('amount_donated');
+            $table->string('amount');
 
             // from payment gateway
             $table->string('transaction_rc')->nullable();

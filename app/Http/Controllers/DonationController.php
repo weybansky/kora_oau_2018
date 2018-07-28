@@ -102,7 +102,7 @@ class DonationController extends Controller
                 // Store the donation
                 Donation::create([
                     'post_id'           => $post->id,
-                    'user_id'           => $user->id,
+                    'user_id'           => auth()->user()->id,
                     'amount'            => $decodedResponse["data"]["transfer"]["amountToSend"],
                     'transaction_status'=> "pending",
                     'transaction_msg'   => $decodedResponse["data"]["transfer"]["flutterChargeResponseMessage"],
@@ -139,7 +139,7 @@ class DonationController extends Controller
             session()->flash('error', "Something went wrong. try again later.");
             session()->flash('message', $message);
 
-            $donation = Donation::where('transaction_ref', $request->ref)->get();
+            $donation = Donation::where('transaction_ref', $request->ref)->first();
 
             $donation->transaction_rc       =  $request->rc;
             $donation->transaction_status   =  $request->transactionStatus;

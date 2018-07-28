@@ -6,6 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Donation extends Model
 {
+
+    protected $fillable = [
+        'post_id', 'user_id', 'amount', 'transaction_status', 'transaction_msg', 'transaction_id', 'transaction_ref', 
+    ];
+
+
+
     public function post()
     {
     		$this->belongsTo(Post::class);

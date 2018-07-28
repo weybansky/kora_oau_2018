@@ -4,7 +4,6 @@
       <a href="{{ url('donate/token') }}" class="btn btn-warning">Create Access Token</a>
  --}}
 
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -74,7 +73,7 @@
       <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
           {{ $flash }}<br>
           @if ($msg = session("message"))
-            <strong>{{ $message }}</strong>
+            <strong>{{ $msg }}</strong>
           @endif
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
